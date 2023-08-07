@@ -1,0 +1,134 @@
+.productsHeading{
+    margin: 2vmax auto;
+    width: 15vw;
+    border-bottom: 1px solid rgba(0,0,0,0.171);
+    padding: 2vmax;
+    color: rgba(0,0,0,0.0.678);
+    font: 500 2.5vmax "Roboto";
+    text-align: center;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 9vmax;
+    justify-content: center;
+}
+
+
+.filter-box {
+  width: 10vmax;
+  position: absolute;
+  top: 10vmax;
+  left: 4vmax;
+}
+
+.category-box{
+  width: 10vmax;
+  top: 15vmax;
+  left: 4vmax;
+  margin: 10px 0px 20px 0px;
+}
+.category-box h2{
+  font-size: 25px;
+}
+.category-box ul{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.rating-box{
+  max-width: 100%;
+    padding: 10px 20px 10px 20px;
+  border: 1px solid red;
+}
+
+.rating-box Slider{
+  max-width: 10%;
+}
+
+.MuiPaginationItem-root {
+    margin: 4px; /* Example: Change margin between buttons */
+    color: rgb(18, 211, 25); /* Example: Change button color to blue */
+  }
+  
+  /* Customize styles for the currently selected button */
+  .MuiPaginationItem-root.Mui-selected {
+    background-color: rgb(18, 18, 21); /* Example: Change selected button background color to blue */
+    color: rgb(245, 19, 19); /* Example: Change selected button text color to white */
+  }
+  
+  /* Customize styles for the disabled button */
+  .MuiPaginationItem-root.Mui-disabled {
+    color: rgb(250, 6, 6); /* Example: Change disabled button text color to gray */
+  }
+
+
+
+
+
+.page-item {
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    padding: 1vmax 1.5vmax;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  .page-item:first-child {
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .page-item:last-child {
+    border-radius: 0 5px 5px 0;
+  }
+  .page-link {
+    text-decoration: none;
+    font: 300 0.7vmax "Roboto";
+    color: rgb(80, 80, 80);
+    transition: all 0.3s;
+  }
+  
+  .page-item:hover {
+    background-color: rgb(230, 230, 230);
+  }
+  
+  .page-item:hover .page-link {
+    color: rgb(0, 0, 0);
+  }
+  
+  .pageItemActive {
+    background-color: tomato;
+  }
+  
+  .pageLinkActive {
+    color: white;
+  }
+  
+  .filterBox {
+    width: 10vmax;
+    position: absolute;
+    top: 10vmax;
+    left: 4vmax;
+  }
+  
+  .categoryBox {
+    padding: 0%;
+  }
+  
+  .category-link {
+    list-style: none;
+    color: rgba(0, 0, 0, 0.61);
+    font: 400 0.8vmax "Roboto";
+    margin: 0.4vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  .category-link:hover {
+    color: tomato;
+  }
+  
+  .filterBox > fieldset {
+    border: 1px solid rgba(0, 0, 0, 0.329);
+  }
+  

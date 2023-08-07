@@ -1,0 +1,26 @@
+.input-container{
+    border: 1px solid rgb(250, 247, 247);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin: 0
+    auto;
+    background-color: white;
+    outline: none;
+}
+
+.input-container input{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    outline: none;
+
+}
+
+.input-container input::placeholder{
+    color: black;
+    font-size: 20px;
+    
+}

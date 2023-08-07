@@ -1,0 +1,136 @@
+.loginsignup-container {
+  background-color: rgb(161, 152, 152);
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-container {
+  background-color: rgb(252, 250, 250);
+  height: 500px;
+  width: 400px;
+}
+
+.form-heading {
+  display: flex;
+  justify-content: space-around;
+}
+.box-container h1 {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px 0px 0px 0px;
+  margin: 0;
+  font-family: cursive;
+}
+
+.actives {
+  border-bottom: 2px solid red;
+}
+
+.form-container {
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: opacity 0.1s, transform 0.5s; /* Add transitions for opacity and transform */
+
+  overflow: hidden; /* Added to hide content outside of the card */
+}
+
+.form-container input {
+  background-color: rgb(252, 250, 250);
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  font: 300 0.9vmax cursive;
+  outline: none;
+  margin: 20px auto;
+  width: 100%;
+  height: 50px;
+  padding-left: 50px;
+}
+
+.forgot-password {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.login-button {
+  width: 100%;
+  background-color: rgb(20, 39, 187);
+  height: 50px;
+  margin: 60px 0px 20px 0px;
+  color: white;
+  border: 5px solid rgb(20,39,187);
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.signup-container {
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.signup-container input {
+  background-color: rgb(252, 250, 250);
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  font: 300 0.9vmax cursive;
+  outline: none;
+  margin: 17px auto;
+  width: 100%;
+  height: 50px;
+  padding-left: 50px;
+}
+
+.signup-button {
+  width: 100%;
+  background-color: rgb(20, 39, 187);
+  height: 50px;
+  margin: 40px 0px 20px 0px;
+  color: white;
+  border: 5px solid rgb(20,39,187);
+  font-family: cursive;
+  font-size: 20px;
+}
+.login {
+  position: relative;
+  display: flex;
+}
+
+.mail-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  width: 20px; /* Adjust the width and height as needed */
+  height: 20px;
+  pointer-events: none;
+}
+.visibility-icon{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 20px; /* Adjust the width and height as needed */
+    height: 20px;
+    
+
+}
+
+.register {
+  animation: appear 1s ease;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
