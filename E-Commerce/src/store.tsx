@@ -11,6 +11,8 @@ const reducer = combineReducers({
     productDetails:productDetailsReducer,
     user: userReducer,
     
+  
+    
   });
 // let initialState = {}
 // const middleware = [thunk]
